@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    height: 375px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 6px 0 #0000, 6px 0 #0000, 1px 2px 3px 0 rgb(0 0 0 / 10%), 0 2px 2px 0 rgb(0 0 0 / 6%); 
+    background-color: white;
+    flex-direction: column;
+    padding: 15px;
+    margin: 40px;
+    align-items: center;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    align-self: center;
+    font-weight: 400;
+    font-size:xx-large;
+    font-family: 'Chingolo';
+}
+
+.input {
+    flex-direction: column;
+    width: 80%;
+    height: 60px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+select {
+    height: 30px;
+    border-width: 0px;
+    width: 100%;
+    border-bottom-width: 1px;
+}
+
+h3 {
+    color: black;
+    align-self: center;
+    font-weight: 300;
+    font-size: large;
+    font-family: 'Chingolo';
+    margin-bottom: -5px;
+}
